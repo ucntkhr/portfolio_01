@@ -1,0 +1,74 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    
+    
+    .slogan {
+        width:50%;
+        padding-bottom:50px;
+    }
+
+
+
+
+}
+
+
+
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+
+
+    .header-right {
+        display:none;
+    }
+    
+    #menu {
+        display:block;
+        font-size:35px;
+    }
+
+
+    .slogan {
+        width:100%;
+    }
+
+    .btn {
+        width:100%;
+    }
+    
+    .google {
+        margin-bottom:10px;
+    }
+
+    .facebook {
+        margin-bottom:10px;
+    }
+
+    .top-wrapper h1 {
+        font-size:24px;
+    }
+    .top-wrapper p {
+        font-size:14px; 
+    }
+    
+    footer {
+        text-align:center;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

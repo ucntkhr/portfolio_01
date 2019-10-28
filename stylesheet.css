@@ -1,0 +1,223 @@
+/* box-sizing:border-box を追加 */
+* {
+    box-sizing: border-box;
+    /* Reset `padding` and `margin` of all elements : user agent stylesheet 打ち消し */
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(169, 208, 245, 0.9);
+    position:fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding:0 15px;
+    margin: 0 auto;
+}
+
+.logo-cat {
+    width:71px;
+    height:44px;
+    line-height: 65px;
+    margin-top:10px;
+
+}
+
+.logo-text {
+    float:left;
+    font-family:'Times new Roman';
+    line-height: 65px;
+    margin-right:5px;
+}
+
+.top-wrapper {
+    height:0px;
+    width:100%;
+    padding-top: 56.25%;
+    background-image:url(img/sleeping_cat.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+    left:0; 
+        
+}
+
+.top-wrapper h1 {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    line-height: 5em;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+.header-left {
+    float:left;
+}
+
+.header-right {
+    /* class="header-right"のブロックを右に  */
+    float:right;
+}
+
+.header-right a {
+    line-height: 65px;
+    color: white;
+    display: block;
+    /* "header-right"内の要素<a>を左に並べる （display:block でブロック化） */
+    float:left;
+    padding:0 25px;
+    transition:all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    float:right;
+    color:#fff;
+    padding:15px 0px;
+}
+
+#menu {
+    display:none;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+
+
+
+.content-wrapper {
+    padding-left:5%;
+    padding-right:5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom:80px;
+    
+}    
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.slogan {
+    float: left;
+    width: 25%;
+}
+
+.fukidashi {
+    position: relative;
+
+}
+
+.fukidashi img {
+    width: 120px;
+    height: 120px;
+}
+
+.kanji {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    color: black;
+    /* 色々な環境で明朝体を指定 （だからfamily）*/
+    font-family: "游明朝", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-weight:bold;
+    font-size:32px;
+}
+
+.clear {
+    clear:left;
+}
+
+.sns-wrapper {
+    margin: 20px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+  
+.meow {
+    background-color: #239b76;
+    margin-bottom:15px;
+    box-shadow: 0 7px #1a7940;
+}
+  
+.meow:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.google {
+    background-color: #DD5144;
+    margin-right: 10px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+  
+.twitter {
+    background-color: #55acee;
+}
+
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.logo-nikukyu {
+    width:86px;
+    height:60px;
+            
+}
+
+
